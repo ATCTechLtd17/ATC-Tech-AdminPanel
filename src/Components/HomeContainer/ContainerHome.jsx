@@ -8,7 +8,7 @@ const data = [
         "img": "/public/homeCard/Academy.png",
         "title": "Academy",
         "id": 1,
-        "link": '/academy'
+        "link": '/academy_login'
     },
     {
         "img": "./../../../public/homeCard/Account.png",
