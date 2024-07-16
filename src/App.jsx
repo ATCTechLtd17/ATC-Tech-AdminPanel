@@ -4,6 +4,7 @@ import CarouselPrimary from './Components/Carousel/CarouselPrimary'
 import Footer from './Components/Footer/Footer'
 import ContainerHome from './Components/HomeContainer/ContainerHome'
 import Navbar from './Components/Navbar/Navbar'
+import SideBar from './Components/SideBar/SideBar'
 
 function App() {
 
@@ -22,6 +23,13 @@ function App() {
         <ContainerHome />
         <Footer />
       </section>
+
+      <div className='flex'>
+        <SideBar />
+      </div>
+
+
+
     </>
   )
 }
