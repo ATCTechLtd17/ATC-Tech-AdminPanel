@@ -1,4 +1,4 @@
-import { supports } from "localforage";
+
 import HomeCard from "./HomeCard/HomeCard";
 // import acdemy from './../../../public/homeCard/Academy.png'
 
@@ -8,7 +8,7 @@ const data = [
         "img": "/public/homeCard/Academy.png",
         "title": "Academy",
         "id": 1,
-        "link": '/academy'
+        "link": '/course_duration'
     },
     {
         "img": "./../../../public/homeCard/Account.png",
