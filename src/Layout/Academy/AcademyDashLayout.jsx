@@ -1,4 +1,5 @@
 import { Outlet } from "react-router-dom";
+import SideBar from "../../Components/SideBar/SideBar";
 
 
 const AcademyDashLayout = () => {
@@ -6,6 +7,7 @@ const AcademyDashLayout = () => {
         <div>
         
             <Outlet />
+            <SideBar/>
         </div>
     );
 };

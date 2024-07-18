@@ -1,4 +1,5 @@
 
+
 const CourseAndDurationSetup = () => {
   return (
 
@@ -7,6 +8,7 @@ const CourseAndDurationSetup = () => {
       <section>
         <h1>Course and Duration</h1>
       </section>
+     
 
     </div>
   );
