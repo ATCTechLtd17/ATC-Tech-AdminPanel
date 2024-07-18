@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const AcademyLogin = () => {
     return (
@@ -64,10 +65,12 @@ const AcademyLogin = () => {
                                             </div>
                                         </div>
 
-                                        <div>
-                                            <button type="submit" className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-[#0F79B9] border border-transparent rounded-md focus:outline-none hover:bg-emerald-600 ">
+                                        <div> 
+                                          <Link to={'/academy/course_duration'}>
+                                          <button type="submit" className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-[#0F79B9] border border-transparent rounded-md focus:outline-none hover:bg-emerald-600 ">
                                                 Log in
                                             </button>
+                                          </Link>
                                         </div>
 
                                         <div className="text-center">

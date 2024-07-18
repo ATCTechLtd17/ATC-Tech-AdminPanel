@@ -45,7 +45,8 @@ const data = [
         "title": "Human Resource Management",
         "id": 7,
         "link": '/academy'
-    }
+    },
+   
 ]
 
 // const sup = {

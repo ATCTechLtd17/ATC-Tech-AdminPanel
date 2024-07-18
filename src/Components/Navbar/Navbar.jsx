@@ -2,9 +2,10 @@
 
 
 const Navbar = () => {
+    // bg-gradient-to-b from-[#bfe5f7] 
     return (
-        <div className="relative w-full h-full  rounded  ">
-            <div className="navbar fixed  rounded-md bg-gradient-to-b from-[#bfe5f7] z-50 flex flex-col md:flex-row ">
+        <div className=" w-full h-full  rounded  ">
+            {/* <div className="navbar  rounded-md bg-[#bfe5f7]  flex flex-col md:flex-row ">
                 <div className="flex-1 ">
                     <div className="flex items-center ">
                         <img className="w-36" src="./../../../public/ATC_Logo/ATC logo-02.png" alt="" />
@@ -34,7 +35,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 };

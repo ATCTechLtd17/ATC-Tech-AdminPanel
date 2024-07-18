@@ -19,6 +19,7 @@ function App() {
         <CarouselPrimary />
 
       </section>
+
       <section>
         <ContainerHome />
         <Footer />
