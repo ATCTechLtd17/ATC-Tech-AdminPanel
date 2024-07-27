@@ -14,6 +14,30 @@ const data = [
     "name": "Fees Setup",
     "link": '/'
   },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Installment Setup",
+    "link": '/'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Create Student Id",
+    "link": '/'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Create Teacher Id",
+    "link": '/'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Money Receipt",
+    "link": '/'
+  },
 
 ]
 
