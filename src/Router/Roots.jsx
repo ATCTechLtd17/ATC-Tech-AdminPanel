@@ -2,7 +2,8 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import AcademyLogin from "../Layout/Academy/AcademyLogin";
 import AcademyDashLayout from "../Layout/Academy/AcademyDashLayout";
-import CourseAndDurationSetup from "../Academy Pages/CourseAndDurationSetup";
+import CourseAndDurationSetup from "../Pages/Academy Pages/CourseAndDurationSetup";
+
 
 
 
@@ -21,10 +22,8 @@ const router = createBrowserRouter([
         element: <AcademyDashLayout />,
         children: [
             {
-
                 path: 'course_duration',
                 element: <CourseAndDurationSetup />
-
             },
         ]
     },

@@ -7,7 +7,7 @@ const data = [
     "id": 1,
     "img": "",
     "name": "Course Setup",
-    "link": '/'
+    "link": 'course_duration'
   },
   {
     "id": 2,
@@ -52,7 +52,7 @@ const SideBar = () => {
             <SidebarTitle />
             {
               data.map((data, idx) => {
-                return (<NavLink key={idx} data={data} className="" to={"/"}>
+                return (<NavLink key={idx} data={data} className="" to={data.link}>
                   <li className="flex items-center p-2 space-x-3  bg-gray-100 hover:bg-[#0F79B9] hover:text-white rounded-md transform hover:scale-105 duration-500">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -68,11 +68,9 @@ const SideBar = () => {
               }
               )
             }
-
-
           </ul>
-          <ul className="pt-4 pb-2 space-y-1 text-sm">
 
+          <ul className="pt-4 pb-2 space-y-1 text-sm">
             <li>
 
               <NavLink to={"/settings"}>
@@ -92,7 +90,6 @@ const SideBar = () => {
                   <span>Settings</span>
                 </p>
               </NavLink>
-
             </li>
             <li>
               <a
