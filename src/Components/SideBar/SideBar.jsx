@@ -28,7 +28,7 @@ const SideBar = () => {
             <li className=" bg-gray-100 hover:bg-teal-500 hover:text-white rounded-md transform hover:scale-105 duration-500">
               {
                 data.map((data, idx) => {
-                  return (<NavLink key={idx}  className="" to={"/"}>
+                  return (<NavLink key={idx} data={data} className="" to={"/"}>
                     <p className="flex items-center p-2 space-x-3 rounded-md">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
