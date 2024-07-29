@@ -7,37 +7,73 @@ const data = [
     "id": 1,
     "img": "",
     "name": "Course Setup",
-    "link": 'course_duration'
+    "link": 'course_setup'
   },
   {
     "id": 2,
     "img": "",
     "name": "Fees Setup",
-    "link": '/'
+    "link": 'fees_setup'
   },
   {
     "id": 2,
     "img": "",
     "name": "Installment Setup",
-    "link": '/'
+    "link": 'installment_setup'
   },
   {
     "id": 2,
     "img": "",
     "name": "Create Student Id",
-    "link": '/'
+    "link": 'create_student_id'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Student List",
+    "link": 'student_list'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Student Status",
+    "link": 'student_status'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Total Running Student",
+    "link": 'total_running_student'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Total Old Student",
+    "link": 'total_old_student'
   },
   {
     "id": 2,
     "img": "",
     "name": "Create Teacher Id",
-    "link": '/'
+    "link": 'create_teacher_id'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Teacher List",
+    "link": 'teacher_list'
+  },
+  {
+    "id": 2,
+    "img": "",
+    "name": "Search Teacher",
+    "link": 'search_teacher'
   },
   {
     "id": 2,
     "img": "",
     "name": "Money Receipt",
-    "link": '/'
+    "link": 'money_receipt'
   },
 
 ]

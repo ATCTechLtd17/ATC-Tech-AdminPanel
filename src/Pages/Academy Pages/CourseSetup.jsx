@@ -1,15 +1,17 @@
 import ContainerMain from "../../Components/Container/ContainerMain";
 
-const FeesSetup = () => {
+
+const CourseSetup = () => {
   return (
     <div>
       <ContainerMain>
         <section>
-          <h1>Fees Setup</h1>
+          <h1>Course Setup</h1>
         </section>
       </ContainerMain>
+
     </div>
   );
 };
 
-export default FeesSetup;
+export default CourseSetup;
