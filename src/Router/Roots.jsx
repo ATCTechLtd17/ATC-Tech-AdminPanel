@@ -23,7 +23,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <App />,
     },
-    // Academy route
+
+
+    // Academy Route:
+
+
     {
         path: "academy_login",
         element: <AcademyLogin />,
@@ -82,6 +86,8 @@ const router = createBrowserRouter([
             },
         ]
     },
+
+    //Acounts Route:
 
 ]);
 

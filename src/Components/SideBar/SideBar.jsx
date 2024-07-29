@@ -2,83 +2,9 @@
 import { NavLink } from "react-router-dom";
 import SidebarTitle from "./SidebarTitle";
 
-const data = [
-  {
-    "id": 1,
-    "img": "",
-    "name": "Course Setup",
-    "link": 'course_setup'
-  },
-  {
-    "id": 2,
-    "img": "",
-    "name": "Fees Setup",
-    "link": 'fees_setup'
-  },
-  {
-    "id": 3,
-    "img": "",
-    "name": "Installment Setup",
-    "link": 'installment_setup'
-  },
-  {
-    "id": 4,
-    "img": "",
-    "name": "Create Student Id",
-    "link": 'create_student_id'
-  },
-  {
-    "id": 5,
-    "img": "",
-    "name": "Student List",
-    "link": 'student_list'
-  },
-  {
-    "id": 6,
-    "img": "",
-    "name": "Student Status",
-    "link": 'student_status'
-  },
-  {
-    "id": 7,
-    "img": "",
-    "name": "Total Running Student",
-    "link": 'total_running_student'
-  },
-  {
-    "id": 8,
-    "img": "",
-    "name": "Total Old Student",
-    "link": 'total_old_student'
-  },
-  {
-    "id": 9,
-    "img": "",
-    "name": "Create Teacher Id",
-    "link": 'create_teacher_id'
-  },
-  {
-    "id": 10,
-    "img": "",
-    "name": "Teacher List",
-    "link": 'teacher_list'
-  },
-  {
-    "id": 11,
-    "img": "",
-    "name": "Search Teacher",
-    "link": 'search_teacher'
-  },
-  {
-    "id": 12,
-    "img": "",
-    "name": "Money Receipt",
-    "link": 'money_receipt'
-  },
 
-]
-
-const SideBar = () => {
+const SideBar = (data) => {
+  console.log(data.data);
   return (
     <div className="w-full">
       <div className=" md:block w-full min-h-screen p-3 space-y-2  bg-gray-300 text-gray-800">
@@ -87,7 +13,7 @@ const SideBar = () => {
           <ul className="pt-2 pb-4 px-1 space-y-3 text-sm font-normal text-black flex flex-col ">
             <SidebarTitle />
             {
-              data.map((data, idx) => {
+              data.data.map((data, idx) => {
                 return (<NavLink key={idx} data={data} className="" to={data.link}>
                   <li className="flex items-center p-2 space-x-3  bg-gray-100 hover:bg-[#0F79B9] hover:text-white rounded-md transform hover:scale-105 duration-500">
                     <svg
