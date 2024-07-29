@@ -14,6 +14,16 @@ import CreateTeacherId from "../Pages/Academy Pages/CreateTeacherId";
 import TeacherList from "../Pages/Academy Pages/TeacherList";
 import SearchTeacher from "../Pages/Academy Pages/SearchTeacher";
 import MoneyReceipt from "../Pages/Academy Pages/MoneyReceipt";
+import AccountsLogin from "../Layout/Accounts/AccountsLogin";
+import Income from "../Pages/Accounts Pages/Income";
+import Expense from "../Pages/Accounts Pages/Expense";
+import AccountsDashLayout from "../Layout/Accounts/AccountsDashLayout";
+import HRMLogin from "../Layout/HRM/HRMLogin";
+import HRMDashLayout from "../Layout/HRM/HRMDashLayout";
+import EmployeeInformation from "../Pages/HRM Pages/EmployeeInformation";
+import Payroll from "../Pages/HRM Pages/Payroll";
+import Salary from "../Pages/HRM Pages/Salary";
+import Report from "../Pages/HRM Pages/Report";
 
 
 
@@ -87,7 +97,63 @@ const router = createBrowserRouter([
         ]
     },
 
+
     //Acounts Route:
+
+
+    {
+        path: "accounts_login",
+        element: <AccountsLogin />,
+    },
+
+    {
+        path: "accounts",
+        element: <AccountsDashLayout />,
+        children: [
+            {
+                path: 'income',
+                element: <Income />
+            },
+            {
+                path: 'expense',
+                element: <Expense />
+            },
+
+
+        ]
+    },
+
+
+    //HRM Route:
+
+
+    {
+        path: "hrm_login",
+        element: <HRMLogin />,
+    },
+    {
+        path: "hrm",
+        element: <HRMDashLayout />,
+        children: [
+            {
+                path: 'employee_information',
+                element: <EmployeeInformation />
+            },
+            {
+                path: 'payroll',
+                element: <Payroll />
+            },
+            {
+                path: 'salary',
+                element: <Salary />
+            },
+            {
+                path: 'report',
+                element: <Report />
+            },
+
+        ]
+    },
 
 ]);
 

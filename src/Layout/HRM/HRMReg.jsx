@@ -1,6 +1,6 @@
 
 
-const AccountsReg = () => {
+const HRMReg = () => {
   return (
     <div>
       <h1>Hello</h1>
@@ -8,4 +8,4 @@ const AccountsReg = () => {
   );
 };
 
-export default AccountsReg;
+export default HRMReg;

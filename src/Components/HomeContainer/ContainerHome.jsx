@@ -8,13 +8,13 @@ const data = [
         "img": "/public/homeCard/Academy.png",
         "title": "Academy",
         "id": 1,
-        "link": '/academy_login'
+        "link": 'academy_login'
     },
     {
         "img": "./../../../public/homeCard/Account.png",
         "title": "Accounts",
         "id": 2,
-        "link": '/academy'
+        "link": 'accounts_login'
     },
     {
         "img": "./../../../public/homeCard/Sales and marketing.png",
@@ -44,9 +44,9 @@ const data = [
         "img": "./../../../public/homeCard/HRM.png",
         "title": "Human Resource Management",
         "id": 7,
-        "link": '/academy'
+        "link": 'hrm_login'
     },
-   
+
 ]
 
 // const sup = {

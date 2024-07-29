@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-const AccountsLogin = () => {
+const HRMLogin = () => {
   return (
     <div className=" w-full h-screen">
 
@@ -66,7 +66,7 @@ const AccountsLogin = () => {
                     </div>
 
                     <div>
-                      <Link to={'/accounts'}>
+                      <Link to={'/hrm'}>
                         <button type="submit" className="inline-flex items-center justify-center w-full px-4 py-4 text-base font-semibold text-white transition-all duration-200 bg-[#0F79B9] border border-transparent rounded-md focus:outline-none hover:bg-emerald-600 ">
                           Log in
                         </button>
@@ -87,4 +87,4 @@ const AccountsLogin = () => {
   );
 };
 
-export default AccountsLogin;
+export default HRMLogin;
