@@ -1,3 +1,5 @@
+
+import SubmitButton from "../../Components/Button/SubmitButton";
 import ContainerMain from "../../Components/Container/ContainerMain";
 
 
@@ -31,11 +33,8 @@ const CourseSetup = () => {
             </select>
           </div>
 
-          <div className="w-full flex justify-center  mt-24 mb-24">
-            <button className="bg-sky-600 hover:bg-teal-700 px-20 py-2 rounded font-medium     text-white">
-              submit
-            </button>
-          </div>
+          <SubmitButton />
+
 
           <div className="md:m-2 xl:m-8">
             <table className="w-full mb-24">
