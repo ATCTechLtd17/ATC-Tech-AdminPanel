@@ -25,6 +25,8 @@ const CourseSetup = () => {
             </div>
              */}
             <TextInput name={'courseName'} />
+            <TextInput name={'entryDuration'}/>
+            <TextInput name={'entryFees'}/>
 
 
 
