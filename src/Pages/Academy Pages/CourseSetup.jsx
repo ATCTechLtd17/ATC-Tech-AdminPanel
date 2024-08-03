@@ -1,4 +1,5 @@
 
+import { data } from "autoprefixer";
 import SubmitButton from "../../Components/Button/SubmitButton";
 import ContainerMain from "../../Components/Container/ContainerMain";
 import GridContainer from "../../Components/Container/GridContainer";
@@ -6,12 +7,13 @@ import TextInput from "../../Components/Input/TextInput";
 
 
 const CourseSetup = () => {
+  const data = 'adasdasd'
   return (
     <div>
       <ContainerMain>
         <section>
           <GridContainer>
-            <div className="flex flex-col gap-1">
+            {/* <div className="flex flex-col gap-1">
               <label className="font-medium" htmlFor="course_name">
                 Entry Course Name:
               </label>
@@ -21,12 +23,12 @@ const CourseSetup = () => {
                 type="text"
               />
             </div>
-            <div>
+             */}
+            <TextInput name={'courseName'} />
 
-              <TextInput />
-            </div>
 
-            {/* <div className="flex flex-col gap-1">
+
+            <div className="flex flex-col gap-1">
               <label className="font-medium" htmlFor="occupation">
                 Duration:
               </label>
@@ -38,7 +40,7 @@ const CourseSetup = () => {
                 <option>6 Months</option>
                 <option>8 Months</option>
               </select>
-            </div> */}
+            </div>
           </GridContainer>
 
 
