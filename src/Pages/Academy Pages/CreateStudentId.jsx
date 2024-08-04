@@ -104,6 +104,12 @@ const CreateStudentId = () => {
                 <label className="mr-52">Office:</label>
               </div>
             </div>
+
+            <div>
+              <PrintButton />
+            </div>
+
+
           </div>
         </section>
       </ContainerMain>

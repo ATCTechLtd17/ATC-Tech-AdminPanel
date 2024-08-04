@@ -50,14 +50,14 @@ const router = createBrowserRouter([
                 path: 'course_setup',
                 element: <CourseSetup />
             },
-            {
-                path: 'fees_setup',
-                element: <FeesSetup />
-            },
-            {
-                path: 'installment_setup',
-                element: <InstallmentSetup />
-            },
+            // {
+            //     path: 'fees_setup',
+            //     element: <FeesSetup />
+            // },
+            // {
+            //     path: 'installment_setup',
+            //     element: <InstallmentSetup />
+            // },
             {
                 path: 'create_student_id',
                 element: <CreateStudentId />
