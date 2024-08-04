@@ -1,3 +1,4 @@
+import PrintButton from "../../Components/Button/PrintButton";
 import ContainerMain from "../../Components/Container/ContainerMain";
 
 const CreateStudentId = () => {
@@ -105,10 +106,8 @@ const CreateStudentId = () => {
               </div>
             </div>
 
-            <div>
-              <PrintButton />
-            </div>
 
+            <PrintButton />
 
           </div>
         </section>
