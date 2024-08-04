@@ -6,12 +6,18 @@ import TextInput from "../../Components/Input/TextInput";
 import DropDownInput from "../../Components/Input/DropDownInput";
 import HeadingPrimary from "../../Heading/HeadingPrimary";
 
-const dropDowndata = [
+const durationDropDowndata = [
   { value: '2 Months', label: '2 Months' },
   { value: '3 Months', label: '3 Months' },
   { value: '4 Months', label: '4 Months' },
   { value: '6 Months', label: '6 Months' },
   { value: '8 Months', label: '8 Months' },
+];
+
+const installmentDropDowndata = [
+  { value: 'Show Fees', label: 'Show Fees' },
+  { value: 'Installment Quantity', label: 'Installment Quantity' },
+
 ];
 
 const CourseSetup = () => {
@@ -29,12 +35,12 @@ const CourseSetup = () => {
         <HeadingPrimary text={'Fees Setup'} />
         <GridContainer>
           <TextInput name={'entryFees'} />
-          <DropDownInput name={'duration'} options={dropDowndata} required={true} />
+          <DropDownInput name={'duration'} options={durationDropDowndata} required={true} />
         </GridContainer>
 
         <HeadingPrimary text={'Installment Setup'} />
         <GridContainer>
-
+          <DropDownInput name={'Select Course Name'} options={installmentDropDowndata} />
         </GridContainer>
 
 
