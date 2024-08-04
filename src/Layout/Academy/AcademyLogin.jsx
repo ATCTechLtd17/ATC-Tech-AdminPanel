@@ -7,7 +7,7 @@ const AcademyLogin = () => {
             <section className="py-10   bg-gradient-to-b from-[#bfe5f7] to-white w-full ">
                 <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
                     <div className="flex flex-col items-center justify-center">
-                        <img className="w-52" src="./../../../public/ATC_Logo/ATC logo-02.png" alt="" />
+                        <img className="w-52" src="/ATC_Logo/ATC logo-02.png" alt="" />
                         <h2 className=" font-normal leading-tight   lg:text-xl badge p-5 bg-[#0F79B9] text-white border-none"> Academy Admin Panel</h2>
                     </div>
                     <div className="max-w-2xl mx-auto text-center">

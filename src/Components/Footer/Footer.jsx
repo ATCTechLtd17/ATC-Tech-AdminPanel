@@ -46,7 +46,7 @@ const Footer = () => {
                     </div>
 
                     <div className="pb-6 md:pb-0 md:col-span-3 col-span-12 flex flex-col md:flex-row justify-around items-center">
-                        <img className="w-48" src="/public/ATC_Logo/ATC-Logo-white.png" alt="ATC Logo" />
+                        <img className="w-48" src="/ATC_Logo/ATC-Logo-white.png" alt="ATC Logo" />
                     </div>
                 </div>
                 <div className="grid justify-center pt-6 lg:justify-between">

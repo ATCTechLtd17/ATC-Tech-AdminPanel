@@ -11,37 +11,37 @@ const data = [
         "link": 'academy_login'
     },
     {
-        "img": "./../../../public/homeCard/Account.png",
+        "img": "./homeCard/Account.png",
         "title": "Accounts",
         "id": 2,
         "link": 'accounts_login'
     },
     {
-        "img": "./../../../public/homeCard/Sales and marketing.png",
+        "img": "/homeCard/Sales and marketing.png",
         "title": "Sales & Marketing",
         "id": 3,
         "link": '/academy'
     },
     {
-        "img": "./../../../public/homeCard/Cyber Security.png",
+        "img": "/homeCard/Cyber Security.png",
         "title": "Cyber Security",
         "id": 4,
         "link": '/academy'
     },
     {
-        "img": "./../../../public/homeCard/Procurement.png",
+        "img": "/homeCard/Procurement.png",
         "title": "Procurement",
         "id": 5,
         "link": '/academy'
     },
     {
-        "img": "./../../../public/homeCard/Support.png",
+        "img": "/homeCard/Support.png",
         "title": "Support",
         "id": 6,
         "link": '/academy'
     },
     {
-        "img": "./../../../public/homeCard/HRM.png",
+        "img": "./homeCard/HRM.png",
         "title": "Human Resource Management",
         "id": 7,
         "link": 'hrm_login'
@@ -50,7 +50,7 @@ const data = [
     //May be delete later
 
     {
-        "img": "/public/homeCard/Academy.png",
+        "img": "/homeCard/Academy.png",
         "title": "Academy",
         "id": 8,
         "link": 'student_admission'
