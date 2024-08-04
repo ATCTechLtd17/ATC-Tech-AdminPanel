@@ -20,6 +20,9 @@ const installmentDropDowndata = [
 
 ];
 
+
+
+
 const CourseSetup = () => {
 
   return (
@@ -38,9 +41,9 @@ const CourseSetup = () => {
           <DropDownInput name={'duration'} options={durationDropDowndata} required={true} />
         </GridContainer>
 
-        <HeadingPrimary text={'Installment Setup'} />
+        <HeadingPrimary text={'installmentSetup'} />
         <GridContainer>
-          <DropDownInput name={'Select Course Name'} options={installmentDropDowndata} />
+          <DropDownInput name={'selectCourseName'} options={installmentDropDowndata}  required={true}/>
         </GridContainer>
 
 
