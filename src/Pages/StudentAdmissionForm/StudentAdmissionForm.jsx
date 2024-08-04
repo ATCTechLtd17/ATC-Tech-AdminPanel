@@ -3,7 +3,9 @@ import PrintButton from "../../Components/Button/PrintButton";
 import SubmitButton from "../../Components/Button/SubmitButton";
 import ContainerMain from "../../Components/Container/ContainerMain";
 
-const CreateStudentId = () => {
+
+const StudentAdmissionForm = () => {
+
   const [idType, setIdType] = useState("");
 
   const handleIdTypeChange = (event) => {
@@ -170,4 +172,4 @@ const CreateStudentId = () => {
   );
 };
 
-export default CreateStudentId;
+export default StudentAdmissionForm;

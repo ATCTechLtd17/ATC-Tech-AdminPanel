@@ -24,6 +24,7 @@ import EmployeeInformation from "../Pages/HRM Pages/EmployeeInformation";
 import Payroll from "../Pages/HRM Pages/Payroll";
 import Salary from "../Pages/HRM Pages/Salary";
 import Report from "../Pages/HRM Pages/Report";
+import StudentAdmissionForm from "../Pages/StudentAdmissionForm/StudentAdmissionForm";
 
 
 
@@ -95,6 +96,13 @@ const router = createBrowserRouter([
                 element: <MoneyReceipt />
             },
         ]
+    },
+
+    //Student Admission (Shoould be delete later)
+
+    {
+        path: "student_admission",
+        element: <StudentAdmissionForm />,
     },
 
 
