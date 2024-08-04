@@ -8,18 +8,18 @@ const data = [
     "name": "Course Setup",
     "link": 'course_setup'
   },
-  {
-    "id": 2,
-    "img": "",
-    "name": "Fees Setup",
-    "link": 'fees_setup'
-  },
-  {
-    "id": 3,
-    "img": "",
-    "name": "Installment Setup",
-    "link": 'installment_setup'
-  },
+  // {
+  //   "id": 2,
+  //   "img": "",
+  //   "name": "Fees Setup",
+  //   "link": 'fees_setup'
+  // },
+  // {
+  //   "id": 3,
+  //   "img": "",
+  //   "name": "Installment Setup",
+  //   "link": 'installment_setup'
+  // },
   {
     "id": 4,
     "img": "",
