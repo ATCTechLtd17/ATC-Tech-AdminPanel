@@ -12,6 +12,11 @@ const StudentAdmissionForm = () => {
     setIdType(event.target.value);
   };
 
+  const handleSubmit = () => {
+    setIsSubmitted(true);
+
+  };
+
   return (
     <div>
       <ContainerMain>
