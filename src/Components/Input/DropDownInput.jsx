@@ -2,7 +2,6 @@ import formatString from "../../Helper/TextFormatting";
 
 
 const DropDownInput = ({ onChange, name, required, defaultValue, disabled, options, }) => {
-    console.log(options);
 
     return (
         <div className="flex flex-col gap-1">
