@@ -4,6 +4,7 @@ import ContainerMain from "../../Components/Container/ContainerMain";
 import GridContainer from "../../Components/Container/GridContainer";
 import TextInput from "../../Components/Input/TextInput";
 import DropDownInput from "../../Components/Input/DropDownInput";
+import HeadingPrimary from "../../Heading/HeadingPrimary";
 
 const dropDowndata = [
   { value: '2 Months', label: '2 Months' },
@@ -19,26 +20,21 @@ const CourseSetup = () => {
     <div>
       <ContainerMain>
 
-        <h1 className="text-xl font-bold text-start max-w-5xl mx-auto pt-4 border-b-4 pb-2">Course and Duration Setup</h1>
+        <HeadingPrimary text={"Course And Duration Setup"} />
         <GridContainer>
-          {/* <div className="flex flex-col gap-1">
-              <label className="font-medium" htmlFor="course_name">
-                Entry Course Name:
-              </label>
-              <input
-                className="input input-bordered input-sm  hover:border-sky-600  "
-                name="branchName"
-                type="text"
-              />
-            </div>
-             */}
           <TextInput name={'courseName'} />
           <TextInput name={'entryDuration'} />
         </GridContainer>
 
+        <HeadingPrimary text={'Fees Setup'} />
         <GridContainer>
           <TextInput name={'entryFees'} />
           <DropDownInput name={'duration'} options={dropDowndata} required={true} />
+        </GridContainer>
+
+        <HeadingPrimary text={'Installment Setup'} />
+        <GridContainer>
+
         </GridContainer>
 
 
