@@ -25,6 +25,7 @@ import Payroll from "../Pages/HRM Pages/Payroll";
 import Salary from "../Pages/HRM Pages/Salary";
 import Report from "../Pages/HRM Pages/Report";
 import StudentAdmissionForm from "../Pages/StudentAdmissionForm/StudentAdmissionForm";
+import TeacherRegistration from "../Pages/TeacherRegistrationForm/TeacherRegistration";
 
 
 
@@ -103,6 +104,11 @@ const router = createBrowserRouter([
     {
         path: "student_admission",
         element: <StudentAdmissionForm />,
+    },
+
+    {
+        path: "teacher_admission",
+        element: <TeacherRegistration />,
     },
 
 

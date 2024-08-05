@@ -47,16 +47,7 @@ const data = [
         "link": 'hrm_login'
     },
 
-    //May be delete later
-
-    {
-        "img": "/homeCard/Academy.png",
-        "title": "Academy",
-        "id": 8,
-        "link": 'student_admission'
-    },
-
-]
+];
 
 // const sup = {
 //     "img": "https://example.com/image6.jpg",
